@@ -1,15 +1,16 @@
 public class palindrome{
     public static void main(String[] args){
-        int n=3553;
+        int n=153;
+        int temp=n;
         int reverse=0;
         int remainder=0;
         //int reverse=0;
 
-        while (n != 0)
+        while (temp>0)
         {
-            remainder=n%10;
+            remainder=temp%10;
             reverse=(reverse*10)+remainder;
-            n /= 10;
+            temp /= 10;
         }
         if (n==reverse)
         {
