@@ -1,6 +1,6 @@
 public class palindrome{
     public static void main(String[] args){
-        int n=153;
+        int n=353;
         int temp=n;
         int reverse=0;
         int remainder=0;
